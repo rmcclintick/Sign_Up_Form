@@ -1,0 +1,108 @@
+.bold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    background-image: url("images/side.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-width: 40vw;
+    margin: 0px;
+}
+
+.sidebar .source {
+    background-color: none;
+    color: #cccccc;
+    text-align: center;   
+    margin-top: 68vh;
+}
+
+.source a {
+    color: #cccccc;
+    height: 30px;
+}
+
+.logo {
+    color: #cccccc;
+    font-size: 32px;
+    background-color: #0000006b;
+    text-align: center;
+    margin-top: 20vh;
+    padding: 2vh;
+}
+
+.right-side {
+    background-color: #f9fafb;
+}
+
+.form-area {
+    background-color: white;
+    padding: 10px 30px;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-heading {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.row-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    padding: 0px 30px;
+    margin-top: 25%;
+}
+
+.line2 {
+    margin-top: 0;
+
+}
+
+.two div{
+    margin: 0;
+    margin: 20px 0px;
+}
+
+.submit-field {
+    padding: 30px;
+}
+
+
+.submit-field button {
+    background-color: #647654;
+    color: #f5f6f4;
+    padding: 8px 30px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: bold;
+}
+.submit-field a {
+    color: #647654;
+    text-decoration: none;
+}
+
+
