@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
 .bold {
     font-weight: bold;
     font-size: 24px;
@@ -23,7 +28,7 @@ body {
     background-color: none;
     color: #cccccc;
     text-align: center;   
-    margin-top: 68vh;
+    margin-top: 64vh;
 }
 
 .source a {
@@ -33,11 +38,18 @@ body {
 
 .logo {
     color: #cccccc;
-    font-size: 32px;
+    font-size: 64px;
     background-color: #0000006b;
-    text-align: center;
+    justify-content: center;
     margin-top: 20vh;
     padding: 2vh;
+    font-family: Norse-Bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    max-height: 80px;
 }
 
 .right-side {
@@ -90,6 +102,14 @@ form {
     padding: 30px;
 }
 
+input {
+    box-sizing: border-box;
+    border: 1px solid rgb(182, 182, 182);
+}
+
+input:focus {
+    border: 2px solid lightskyblue;
+}
 
 .submit-field button {
     background-color: #647654;
