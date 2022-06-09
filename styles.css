@@ -28,7 +28,7 @@ body {
     background-color: none;
     color: #cccccc;
     text-align: center;   
-    margin-top: 64vh;
+    margin-top: calc(90vh - 20vh - 80px);
 }
 
 .source a {
@@ -104,11 +104,11 @@ form {
 
 input {
     box-sizing: border-box;
-    border: 1px solid rgb(182, 182, 182);
+    border: 1px solid #e5e7eb;
 }
 
 input:focus {
-    border: 2px solid lightskyblue;
+    border: 2px solid #99a8d3;
 }
 
 .submit-field button {
